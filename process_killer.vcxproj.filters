@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\common">
+      <UniqueIdentifier>{b817db67-0a06-436c-822c-7666499ccecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\common\key_hook">
+      <UniqueIdentifier>{f9bbf2f2-1e3c-403a-b0e4-0b0c639278da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\common\process_mgr">
+      <UniqueIdentifier>{749e7d3d-46df-458c-b810-6f39e0addd02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\common\string">
+      <UniqueIdentifier>{5bc1a237-2bdc-4f83-af7e-84bb88af4409}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\common\key_hook\key_hook.cpp">
+      <Filter>源文件\common\key_hook</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\process_mgr\process_mgr.cpp">
+      <Filter>源文件\common\process_mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\process_killer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\string\string_util.cpp">
+      <Filter>源文件\common\string</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common\key_hook\key_hook.h">
+      <Filter>源文件\common\key_hook</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\process_mgr\process_mgr.h">
+      <Filter>源文件\common\process_mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\string\string_util.h">
+      <Filter>源文件\common\string</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
